@@ -1,0 +1,26 @@
+HTML - Hyper text markup language - HTML5   <head> content </head>
+
+Self Closing tag - hr, Meta, br, img
+
+===> To create a Web pages
+===> Not a Programming language
+===> Its a  markup language
+===> Every website can start with HTML
+
+1) Heading - h1 to h6
+
+2) Paragraph - p
+
+3) Horizontal - hr
+
+4) Break tag - br
+
+5) Text Formatting - u, i, sub, sup, b or strong and mark
+
+6) Anchor Tag (Linking) - a
+
+7) Image tag - img
+
+8) Table - tr, th and td
+
+9) List - ordered list and unordered list
