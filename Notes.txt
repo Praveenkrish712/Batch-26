@@ -1,6 +1,6 @@
 HTML - Hyper text markup language - HTML5   <head> content </head>
 
-Self Closing tag - hr, Meta, br, img
+Self Closing tag - hr, Meta, br, img, input
 
 ===> To create a Web pages
 ===> Not a Programming language
@@ -24,3 +24,11 @@ Self Closing tag - hr, Meta, br, img
 8) Table - tr, th and td
 
 9) List - ordered list and unordered list
+
+10) Forms - label, input, placeholder, required, button, type(Important), fieldset, legend
+
+11) Media Elements - Audio and video
+
+12) Semantic Tags - Header, footer, section, nav and main
+
+13) Division - Div
