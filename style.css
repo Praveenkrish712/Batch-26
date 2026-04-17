@@ -1,0 +1,59 @@
+*{
+    /* background-color: gray; */
+}
+
+h1{
+    color: blue;
+}    
+
+h2{
+    color: brown;
+}
+
+p{
+    color: goldenrod;
+}
+
+/* .Selector > h1,
+.Selector > h2,
+.Selector > h3{
+    color: violet;
+} */
+
+#Lang > h2,
+#Lang > h1,
+#Lang > h3,
+#Lang > h4,
+#Lang > h5,
+#Lang > p{
+    color: hotpink;
+}
+
+.fun{
+    color: salmon;
+}
+
+/* #Lang >h1,h2,h3,h4,h5,p{
+    color: darkgreen;
+} */
+
+
+span{
+    color: red;
+}
+
+.one{
+    color: darkblue;
+}
+
+.Two{
+    color: darkseagreen;
+}
+
+.three{
+    color: violet;
+}
+
+#para{
+    color: darkgray;
+}
