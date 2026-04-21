@@ -60,3 +60,30 @@ ii) Class Selector - (.) - Multiple - No of times we can use the same class name
 iii) Id Selector - (#) - Unique - Only one time we can use the same id name
 iv) Universal Selector - (*) - Give some style it will apply into the entire site
 v) Group Selector - Class or id name contains different tags, in that different tags we want to change the same style means we can go with Group Selector
+
+4) Colors and Background
+===> Colors - Name, RGB, HEX(6 digit)
+
+===> background
+       background-image: url(./Assets/Silambarasan_TR_1753112909732_1753112909879.avif);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+
+5) Text Styling       
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 10px;
+    letter-spacing: 2px;
+    
+
+6) Box Modeling
+i) content
+ii) Padding - Around the content is called Padding
+iii) Border - Around the Padding is called Border
+iv) Margin - Around the Border is called Margin   

@@ -1,18 +1,29 @@
 *{
     /* background-color: gray; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 h1{
     color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 10px;
+    letter-spacing: 2px;
 }    
 
 h2{
     color: brown;
 }
 
-p{
+/* p{
     color: goldenrod;
-}
+} */
 
 /* .Selector > h1,
 .Selector > h2,
@@ -51,9 +62,35 @@ span{
 }
 
 .three{
-    color: violet;
+    color: #190944;
 }
 
 #para{
     color: darkgray;
+}
+
+p{
+    background-image: url(./Assets/Silambarasan_TR_1753112909732_1753112909879.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Container{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* padding-left: 50px;
+    padding-top: 70px; */
+    padding: 20px 40px 60px 80px;
+    /* border-top: 10px solid black;
+    border-bottom: 10px solid green; */
+    border: 20px solid black;
+    /* margin-left: 100px;
+    margin-top: 150px; */
+    margin: 50px 70px 90px 110px;
+}
+
+h3{
+    padding: 20px;
 }
