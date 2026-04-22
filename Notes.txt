@@ -87,3 +87,10 @@ i) content
 ii) Padding - Around the content is called Padding
 iii) Border - Around the Padding is called Border
 iv) Margin - Around the Border is called Margin   
+
+7) position
+i) Static - (default)
+ii) Retative - using position relative to be set the limit like top, bottom, right and left
+iii) Absolute - Absolute can search the non-static parent, once reach the non-static parent it will act as a same relative, otherwise it will search one more parent...... there is no non-stactic parent means it will directly go to the root(body) of the website.
+iv) Fixed - To be Fixed to the place
+v) Sticky - Using top:0 once reach the top:0 it will act as a same fixed.
