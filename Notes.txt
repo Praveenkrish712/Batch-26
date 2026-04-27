@@ -94,3 +94,22 @@ ii) Retative - using position relative to be set the limit like top, bottom, rig
 iii) Absolute - Absolute can search the non-static parent, once reach the non-static parent it will act as a same relative, otherwise it will search one more parent...... there is no non-stactic parent means it will directly go to the root(body) of the website.
 iv) Fixed - To be Fixed to the place
 v) Sticky - Using top:0 once reach the top:0 it will act as a same fixed.
+
+8) Display - block, inline, inline-block, flex, grid and none
+
+        Flex                                grid
+    One dimensional layout          Two dimensional layout
+    Row Or Column                     Both Row and Column
+    Best for small components        Best for Full page layout 
+    Ex: Navbar, cards                  Ex: section, dashbords
+
+========> Flex
+i) Using Display:flex (Column into row)
+ii) Flex direction - Row, row-reverse, column, column-reverse
+iii) Justify content (X) - Start, center, end, Space-around, space-evenly, space-between
+iv) Align-items (Y) (set the height) - Start, center, end
+v) Gap - to be set the values......... px,rem,cm,m,%,vh,vw
+vi) flex wrap - nowrap, wrap, wrap-reverse
+vii) Align-content (Y) (set the height) (flex-wrap is enable) - Start, center, end, Space-around, space-evenly, space-between
+viii) Flex on item - flex:1,2,3.....
+ix) order - Change the visual order of the Property

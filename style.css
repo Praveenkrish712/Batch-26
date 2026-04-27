@@ -17,9 +17,9 @@ h1{
     letter-spacing: 2px;
 }    
 
-h2{
+/* h2{
     color: brown;
-}
+} */
 
 /* p{
     color: goldenrod;
@@ -69,12 +69,12 @@ span{
     color: darkgray;
 }
 
-p{
+/* p{
     background-image: url(./Assets/Silambarasan_TR_1753112909732_1753112909879.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+} */
 
 .Container{
     width: 200px;
@@ -93,4 +93,123 @@ p{
 
 h3{
     padding: 20px;
+}
+
+h2{
+    background-color: red;
+    display: none;
+    height: 500px;
+    width: 200px;
+}
+
+.box1{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    /* flex: 1; */
+    order: 2;
+}
+
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    /* flex: 3; */
+    order: 3;
+}
+
+.box3{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    /* flex: 1; */
+    order: 1;
+}
+
+.box4{
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+}
+
+.box5{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /* height: 500px; */
+    /* border: 2px solid black; */
+    align-items: start;
+    /* gap: 20px; */
+    /* flex-wrap: wrap; */
+    /* align-content: space-between; */
+}
+
+
+.box6{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.box7{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+
+.box8{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+}
+
+.box9{
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+}
+
+.box10{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
+
+/* .two > p > span{
+    color: green;
+} */
+
+.three{
+    color: hotpink;
+}
+
+.one{
+    display: flex;
+}
+
+.name1{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    flex: 1;
+}
+
+.name2{
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+    flex: 3;
+}
+
+.name3{
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
+    flex: 1;
 }
