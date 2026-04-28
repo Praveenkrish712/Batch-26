@@ -103,7 +103,7 @@ v) Sticky - Using top:0 once reach the top:0 it will act as a same fixed.
     Best for small components        Best for Full page layout 
     Ex: Navbar, cards                  Ex: section, dashbords
 
-========> Flex
+========> Flex (Display)
 i) Using Display:flex (Column into row)
 ii) Flex direction - Row, row-reverse, column, column-reverse
 iii) Justify content (X) - Start, center, end, Space-around, space-evenly, space-between
@@ -113,3 +113,31 @@ vi) flex wrap - nowrap, wrap, wrap-reverse
 vii) Align-content (Y) (set the height) (flex-wrap is enable) - Start, center, end, Space-around, space-evenly, space-between
 viii) Flex on item - flex:1,2,3.....
 ix) order - Change the visual order of the Property
+
+
+=======> Grid (Display)
+i) Using Display:grid (No change)
+ii) grid-template-columns: 30% 30% 30%;
+                         : 300px 500px 200px 100px;
+                         : 1fr 1fr 1fr;
+                         : 300px 30% 1fr;
+                         : 300px 400px auto;
+                         : repeat(4,200px);
+                         : minmax(200px,1fr) 1fr 1fr;
+                         : repeat(3,minmax(200px,1fr));
+iii) grid-template-rows  : 30% 30% 30%;
+                         : 300px 500px 200px 100px;
+                         : 1fr 1fr 1fr;
+                         : 300px 30% 1fr;
+                         : 300px 400px auto;
+                         : repeat(4,200px);    
+iv) grid-column-start: 1; ( starting value)
+    grid-column-end: 4; (ending value)  
+v) grid-row-start:1
+   grid-row-end:3
+vi) grid-template-areas: 
+    "h h h h"
+    "sb1 m m sb2"
+    "f f f f";
+vii) grid-area: h,f,m,sb1 sb2......    
+                                      
