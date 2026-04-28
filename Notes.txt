@@ -132,7 +132,9 @@ iii) grid-template-rows  : 30% 30% 30%;
                          : 300px 400px auto;
                          : repeat(4,200px);    
 iv) grid-column-start: 1; ( starting value)
+                     : span 2;
     grid-column-end: 4; (ending value)  
+                     : span 3;
 v) grid-row-start:1
    grid-row-end:3
 vi) grid-template-areas: 
