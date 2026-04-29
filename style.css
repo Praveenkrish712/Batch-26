@@ -269,7 +269,7 @@ h2{
     grid-template-rows: 10vh 80vh 10vh;
     grid-template-areas: 
     "z z z z"
-    "sb1 m m sb2"
+    "hd m m sb2"
     "k k k k";
 }
 
@@ -282,7 +282,7 @@ h2{
 }
 
 .sidebar1{
-    grid-area: sb1;
+    grid-area: hd;
 }
 
 .sidebar2{
@@ -291,4 +291,70 @@ h2{
 
 .main{
     grid-area: m;
+}
+
+.square{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    transition-duration: 5s;
+    transition-property: all;
+    transition-timing-function: linear;
+    /* transition-delay: 5s; */
+}
+
+.square:hover{
+    width: 600px;
+    background-color: darkorange;
+    transform: translateX(100px);
+}
+
+.square2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    animation-name: Circle;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes Circle {
+    25%{
+        width: 200px;
+        height: 200px;
+        background-color: brown;
+        top: 5px;
+        left: 5px;
+        border-radius: 10px;
+    }
+    
+    50%{
+        width: 300px;
+        height: 300px;
+        background-color: chartreuse;
+        top: 10px;
+        left: 10px;
+        border-radius: 20px;
+    }
+
+    75%{
+        width: 400px;
+        height: 400px;
+        background-color: deeppink;
+        top: 15px;
+        left: 15px;
+        border-radius: 30px;
+    }
+
+    100%{
+        width: 500px;
+        height: 500px;
+        background-color: yellow;
+        top: 20px;
+        left: 20px;
+        border-radius: 50px;
+    }
 }
