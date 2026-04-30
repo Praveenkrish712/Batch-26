@@ -169,4 +169,27 @@ vii) grid-area: h,f,m,sb1 sb2......
      animation-name: Circle;
      animation-duration: 5s;
      animation-fill-mode: forwards;
-     animation-iteration-count: infinite;        
+     animation-iteration-count: infinite;       
+
+9) Pseudo-classes and Pseudo-Elements
+i) hover   
+ii) Focus  
+iii) nth-child() 
+iv) nth-child() - using Odd and even
+v) First-letter
+vi) First line
+vii) Before
+viii) After
+ix) Checked
+
+10) Media Queries OR Responsive design
+===> Apply styles based on the device conditions
+===> Device type (Mobile,tablet,desktop)
+
+-----> Mobile - 320px to 600px
+-----> Tablet - 601px to 800px
+-----> lap/desktop - Above 801px
+
+@media screen and (max-width:size){
+    block of code
+}
